@@ -6,20 +6,38 @@
     --color-white: #f0f0f0;
     --color-gray: #e6e6e6;
 }
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 }
+
 body{
     font-family: 'Abel', sans-serif;
     background-color: var(--color-gray);
 }
 
-#d {
+#red{
     background-color: var(--color-red);
 }
 
-.rounded-circle {
-    width: 30px;
-    height: 30px;
+#orange{
+    background-color: var(--color-orange);
+}
 
+#blue{
+    background-color: var(--color-blue);
+}
+
+#green{
+    background-color: var(--color-green);
+}
+
+.rounded-circle{
+    width: 7em;
+    height: 7em;
+    margin: 1em;
+    padding-top: 2.25em;
+}
+.border{
+    border-width: .3em !important;
 }
