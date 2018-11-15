@@ -18,34 +18,34 @@ body{
 
 #red{
     background-color: var(--color-red);
-    width: 6.8em;
-    height: 6.8em;
+    width: 5.5em;
+    height: 5.5em;
     margin: .6em;
-    padding-top: 2.2em;
+    padding-top: 1.9em;
 }
 
 #orange{
     background-color: var(--color-orange);
-    width: 6.8em;
-    height: 6.8em;
+    width: 5.5em;
+    height: 5.5em;
     margin: .6em;
-    padding-top: 2.2em;
+    padding-top: 1.9em;
 }
 
 #blue{
     background-color: var(--color-blue);
-    width: 6.8em;
-    height: 6.8em;
+    width: 5.5em;
+    height: 5.5em;
     margin: .6em;
-    padding-top: 2.2em;
+    padding-top: 1.9em;
 }
 
 #green{
     background-color: var(--color-green);
-    width: 6.8em;
-    height: 6.8em;
+    width: 5.5em;
+    height: 5.5em;
     margin: .6em;
-    padding-top: 2.2em;
+    padding-top: 1.9em;
 }
 
 .border{
@@ -105,6 +105,8 @@ body{
     margin-left: 5.5%;
 }
 
-
+.codeup {
+    font-size: xx-large;
+}
 
 
