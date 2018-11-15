@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
 
 body{
     font-family: 'Abel', sans-serif;
-    background-color: var(--color-gray);
+    background-color: var(--color-white);
 }
 
 #red{
@@ -33,11 +33,24 @@ body{
 }
 
 .rounded-circle{
-    width: 7em;
-    height: 7em;
-    margin: 1em;
-    padding-top: 2.25em;
+    width: 6.8em;
+    height: 6.8em;
+    margin: .6em;
+    padding-top: 2.2em;
 }
 .border{
     border-width: .3em !important;
+}
+
+.images {
+    height: 12.5em;
+    border-width: .25em;
+    border-color: var(--color-gray);
+}
+
+.small {
+    height: 1em;
+    width: 1em;
+    border-width: .1em;
+    border-color: var(--color-gray);
 }
