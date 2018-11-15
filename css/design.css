@@ -18,39 +18,93 @@ body{
 
 #red{
     background-color: var(--color-red);
-}
-
-#orange{
-    background-color: var(--color-orange);
-}
-
-#blue{
-    background-color: var(--color-blue);
-}
-
-#green{
-    background-color: var(--color-green);
-}
-
-.rounded-circle{
     width: 6.8em;
     height: 6.8em;
     margin: .6em;
     padding-top: 2.2em;
 }
+
+#orange{
+    background-color: var(--color-orange);
+    width: 6.8em;
+    height: 6.8em;
+    margin: .6em;
+    padding-top: 2.2em;
+}
+
+#blue{
+    background-color: var(--color-blue);
+    width: 6.8em;
+    height: 6.8em;
+    margin: .6em;
+    padding-top: 2.2em;
+}
+
+#green{
+    background-color: var(--color-green);
+    width: 6.8em;
+    height: 6.8em;
+    margin: .6em;
+    padding-top: 2.2em;
+}
+
 .border{
     border-width: .3em !important;
 }
 
-.images {
+.images{
     height: 12.5em;
     border-width: .25em;
     border-color: var(--color-gray);
 }
 
-.small {
-    height: 1em;
-    width: 1em;
+.small{
+    height: 4em;
+    width: 4em;
     border-width: .1em;
     border-color: var(--color-gray);
+    overflow-wrap: normal;
 }
+
+.no-padding{
+    padding: 0;
+}
+
+.red{
+    background-color: var(--color-red);
+}
+
+.orange{
+    background-color: var(--color-orange);
+}
+
+.green{
+    background-color: var(--color-green);
+}
+
+.blue{
+    background-color: var(--color-blue);
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    padding-top: 1em;
+}
+.point{
+    margin-top: 1em;
+}
+
+.offset-c{
+    margin-left: 3%;
+}
+
+.offset-c2{
+    margin-left: 5.5%;
+}
+
+
+
+
